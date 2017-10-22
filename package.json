@@ -1,0 +1,41 @@
+{
+  "name": "aredis",
+  "version": "1.0.0",
+  "description": "Redis wrapper",
+  "main": "lib",
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js"
+  },
+  "repository": "a-labo/aredis",
+  "keywords": [],
+  "author": {
+    "name": "okunishinishi",
+    "email": "okunishinishi@gmail.com",
+    "url": "undefined"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-labo/aredis/issues"
+  },
+  "homepage": "https://github.com/a-labo/aredis#readme",
+  "dependencies": {
+    "akv": "^2.0.0",
+    "asfs": "^2.0.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "amocha": "^4.0.0",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^6.0.2",
+    "ape-updating": "^4.1.1",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  }
+}

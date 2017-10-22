@@ -1,0 +1,20 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ */
+
+'use strict'
+
+const ARedis = require('./aredis')
+const ARedisLight = require('./aredis_light')
+const create = require('./create')
+
+const lib = create.bind(this)
+
+Object.assign(lib, {
+  create,
+  ARedis,
+  ARedisLight
+})
+
+module.exports = lib
