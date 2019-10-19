@@ -1,6 +1,6 @@
 {
   "name": "aredis",
-  "version": "1.0.4",
+  "version": "2.0.1",
   "description": "Redis wrapper",
   "main": "lib",
   "scripts": {
@@ -11,8 +11,7 @@
   "keywords": [],
   "author": {
     "name": "okunishinishi",
-    "email": "okunishinishi@gmail.com",
-    "url": "undefined"
+    "email": "okunishinishi@gmail.com"
   },
   "license": "MIT",
   "bugs": {
@@ -20,19 +19,22 @@
   },
   "homepage": "https://github.com/a-labo/aredis#readme",
   "dependencies": {
-    "akv": "^2.0.0",
-    "asfs": "^2.1.1",
-    "redis": "^2.8.0"
+    "akv": "^2.0.1",
+    "asfs": "^2.2.3"
   },
   "devDependencies": {
-    "amocha": "^5.0.0",
+    "amocha": "^5.0.2",
     "ape-formatting": "^1.0.2",
-    "ape-releasing": "^5.0.0",
-    "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^6.0.12",
-    "ape-updating": "^5.0.1",
-    "coz": "^7.0.3",
-    "injectmock": "^2.0.0"
+    "ape-releasing": "^5.0.7",
+    "ape-tasking": "^4.0.12",
+    "ape-tmpl": "^6.0.14",
+    "ape-updating": "^5.0.3",
+    "coz": "^7.0.19",
+    "injectmock": "^2.0.0",
+    "redis": "^2.8.0"
+  },
+  "peerDependencies": {
+    "redis": ">=2"
   },
   "engines": {
     "node": ">=6",
