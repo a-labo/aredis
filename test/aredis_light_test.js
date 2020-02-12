@@ -6,7 +6,6 @@
 
 const AredisLight = require('../lib/aredis_light.js')
 const assert = require('assert')
-const co = require('co')
 
 describe('aredis-light', () => {
   before(async () => {
